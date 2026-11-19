@@ -1,0 +1,14 @@
+{
+  "name": "github-core-clone-01",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "description": "A GitHub-compatible git forge in a single Node process: smart HTTP, REST v3, GraphQL and MCP from one in-memory store",
+  "license": "MIT",
+  "engines": {
+    "node": ">=22.18"
+  },
+  "scripts": {
+    "start": "node --experimental-strip-types main.ts"
+  }
+}
